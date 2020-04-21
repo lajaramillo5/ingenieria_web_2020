@@ -38,3 +38,8 @@ section.galeria{
 	background-color: aqua;
 	color: cadetblue;
 }
+section.galeria h2{
+	padding: 1em;
+	width: 20%;
+	display: inline-block;
+}
