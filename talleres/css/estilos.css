@@ -43,3 +43,11 @@ section.galeria h2{
 	width: 20%;
 	display: inline-block;
 }
+main.noticia{
+	text-align: center;
+	display: inline-flexboxin;
+	height: 300px;
+	width: 90%;
+	padding: 1em;
+	margin-top: 2px;
+}
