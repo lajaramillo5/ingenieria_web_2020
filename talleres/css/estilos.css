@@ -48,33 +48,37 @@ main.noticia{
 	text-align: center;
 	display: inline-flexboxin;
 	height: 300px;
-	width: 70%;
+	width: 89%;
 	padding: 1em;
-	margin: 0 auto;
+	margin: 4px;
 	margin-top: 2px;
 	margin-left: 50px;
+	background-color:rgb(228, 151, 10);
 }
 section.noticias1{
 	height: 300px;
-	width: 46%;
-	background-color: darkgoldenrod;
+	width: 44.5%;
+	background-color: rgb(230, 228, 224);
 	float: left;
+	margin: 0 auto;
 }
 section.noticias2{
 	height: 300px;
-	width: 46%;
-	background-color: darkgoldenrod;
+	width: 44.5%;
+	background-color: rgb(230, 228, 224);
 	float: right;
 	margin-left: 70px;
+	margin: 0 auto;
 }
 aside.sponsor{
-	height: 100px;
+	height: 90px;
 	width: 90%;
-	padding: 1em;
-	margin-top: 2px;
-	margin: 0 auto;
+	padding: 4em;
+	margin-top: 4px;
+	margin: 5px;
 	display: inline-flexboxin;
 	text-align: center;
+	margin-left: 10px;
 	background-color: rgb(118, 122, 118);
 }
 section.sponsor1{
