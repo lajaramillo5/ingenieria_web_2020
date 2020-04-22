@@ -115,3 +115,10 @@ section.sponsor5{
 	float: left;
 	margin-left: 12px;
 }
+footer.piedepagina{
+	padding: 1em;
+	margin-top: 2px;
+	height: 100px;
+	text-align: center;
+	background-color: darkslategray;
+}
