@@ -16,7 +16,7 @@ header.cabeceraPrincipal {
 }
 
 nav.menuPrincipal {
-    background-color: blanchedalmond;
+    background-color: white;
     color: rgb(47, 83, 10);
     width: 90%;
     margin: 0 auto;
@@ -61,15 +61,43 @@ aside.buscador {
 section.galeria {
     margin: 0 auto;
     margin-top: 2px;
-    height: 450px;
+    height: 320px;
     width: 90%;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(210, 233, 233);
     color: cadetblue;
+    display: inline-block;
+    margin-left: 63px;
 }
 
-section.galeria h2 {
+main.noticia {
+    text-align: center;
+    display: inline-flexboxin;
+    height: 300px;
+    width: 90%;
     padding: 1em;
-    width: 20%;
-    display: inline-block;
+    margin: 4px;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+section.noticias1 {
+    height: 300px;
+    width: 44.5%;
+    background-color: rgb(230, 228, 224);
+    float: left;
+    margin: 0 auto;
+    border-color: rgb(64, 158, 64);
+    border-style: solid;
+}
+
+section.noticias2 {
+    height: 300px;
+    width: 44.5%;
+    background-color: rgb(230, 228, 224);
+    float: right;
+    margin-left: 70px;
+    margin: 0 auto;
+    border-color: rgb(64, 158, 64);
+    border-style: solid;
 }
