@@ -166,3 +166,13 @@ section.sponsor5 a {
     border-color: rgb(64, 158, 64);
     border-style: solid;
 }
+
+footer.piedepagina {
+    padding: 1em;
+    margin-top: 2px;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    margin-left: 40px;
+    background-color: rgb(41, 48, 48);
+}
