@@ -10,7 +10,7 @@ body {
 
 header.cabeceraPrincipal,
 nav.menuPrincipal {
-    background-color: rgb(148, 250, 46);
+    background-color: rgb(99, 109, 90);
     color: rgb(47, 83, 10);
     width: 90%;
     margin: 0 auto;
@@ -20,4 +20,19 @@ header.cabeceraPrincipal h1 {
     padding: 1em;
     width: 20%;
     display: inline-block;
+}
+
+section.seccionCabecera {
+    width: 70%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav.menuPrincipal {
+    margin-top: 2px;
+}
+
+nav.menuPrincipal div {
+    padding: 1em;
+    text-align: center;
 }
