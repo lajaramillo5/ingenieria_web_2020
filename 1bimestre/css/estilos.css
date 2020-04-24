@@ -36,3 +36,19 @@ nav.menuPrincipal div {
     padding: 1em;
     text-align: center;
 }
+
+section.galeria {
+    margin: 0 auto;
+    margin-top: 2px;
+    height: 450px;
+    width: 90%;
+    text-align: center;
+    background-color: aqua;
+    color: cadetblue;
+}
+
+section.galeria h2 {
+    padding: 1em;
+    width: 20%;
+    display: inline-block;
+}
