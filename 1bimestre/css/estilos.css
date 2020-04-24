@@ -101,3 +101,68 @@ section.noticias2 {
     border-color: rgb(64, 158, 64);
     border-style: solid;
 }
+
+aside.sponsor {
+    height: 90px;
+    width: 90%;
+    padding: 4em;
+    margin-top: 4px;
+    margin: 5px;
+    display: inline-flexboxin;
+    text-align: center;
+    margin-left: 40px;
+    background-color: rgb(177, 177, 177);
+}
+
+section.sponsor1 {
+    height: 100px;
+    width: 10%;
+    background-color: rgb(52, 14, 223);
+    float: left;
+    border-color: rgb(64, 158, 64);
+    border-style: solid;
+}
+
+section.sponsor2 {
+    margin: 0 auto;
+    height: 100px;
+    width: 10%;
+    background-color: rgb(52, 14, 223);
+    float: left;
+    margin-left: 60px;
+    border-color: rgb(64, 158, 64);
+    border-style: solid;
+}
+
+section.sponsor3 {
+    margin: 0 auto;
+    height: 100px;
+    width: 10%;
+    background-color: rgb(52, 14, 223);
+    float: left;
+    margin-left: 60px;
+    border-color: rgb(64, 158, 64);
+    border-style: solid;
+}
+
+section.sponsor4 {
+    margin: 0 auto;
+    height: 100px;
+    width: 10%;
+    background-color: rgb(52, 14, 223);
+    float: left;
+    margin-left: 60px;
+    border-color: rgb(64, 158, 64);
+    border-style: solid;
+}
+
+section.sponsor5 a {
+    margin: 0 auto;
+    height: 10px;
+    width: 10%;
+    background-color: rgb(52, 14, 223);
+    float: left;
+    margin-left: 60px;
+    border-color: rgb(64, 158, 64);
+    border-style: solid;
+}
