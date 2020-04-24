@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <title>Practica01</title>
 </head>
-<body bgcolor="celeste">
-<header> 
-<div > <img src="Recursos/logo.png"
-     width="100"
-     ></div>
-	<div style="position: absolute; top: 10px; left:1000px ; width: 100px;">
-		<a  href="">REGISTER</a><b>|</b><a href="">INICIO</a>
-		<input id="search" type="tex" placeholder="Buscar">
-	</div>
-</header>
-	<nav align="center">
-		<a href="#">|INICIO|</a>
-            <a href="#">|SERVICIOS|</a>
-            <a href="#">|PORTAFOLIO|</a>
-            <a href="#">|CLIENTES|</a>
-            <a href="#">|CONTACTOS|</a>
-	</nav>
-	<br>
-	<section> 
-		<div style="max-width: 1100px; ;position: relative; margin: auto;">
-		<article>
-			<table>
-		<form class="fotos" >
-			<input type="button"value =">>" onclick="adelante()">
-			<img src="Recursos/cajeros.jpg" width="200" height="300">
-			<img src="Recursos/sala.jpeg" width="200" height="300">
-			<img src="Recursos/fila.jpg" width="200" height="300">
-			<img src="Recursos/filas.jpg" width="200" height="300">
-			<img src="Recursos/seguridad.jpg" width="200" height="300">
-			<input type="button"value ="<<" onclick="atras()">
-		</form>
-		</table>
-		</article>
-	     </div>
 
-		<div style="max-width: 700px; ;position: relative; margin: auto;">
-                     <table width="90%">
-                      <tr>
-                      	<td><center><h4>NOTICIA1</h4>
-                      	<a href="https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2020/04/14/asociacion-de-bancos-asegura-que-propuesta-de-creditos-para-pymes-no-son-un-negocio-favorable.shtml"><img src="https://media.biobiochile.cl/wp-content/uploads/2020/04/a_uno_1149770-e1586837647381-750x400.jpg" width="150" height="150" > </a></center></td>
-                      	<td><center><h4>NOTICIA2</h4>
-                      	<a href="https://www.infobae.com/economia/2020/04/14/a-partir-de-la-semana-que-viene-los-bancos-van-volver-a-permitir-sacar-dolares-por-ventanilla/"><img src="https://www.infobae.com/new-resizer/4dQMXq1h6c6iChmY6klD5HGkH3o=/750x0/filters:quality(100)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/KINNZUGMJNBI3KKEQSCCCXP22A.jpg" width="150" height="150" > </a></center> </td>
-                      </tr>
-                      	<tr>
-
-                      	<td><p>Asociación de Bancos asegura que propuesta de créditos para pymes no son "un negocio favorable</p></td>
-                      	
-                      	<td><p>A partir de la semana que viene los bancos van volver a permitir sacar dólares por ventanilla</p></td>
-                      </tr>
-                	</table>
-                	
- 
-            </div>
-      
-	<section class="sponsor"  align="center">
-        <h4>Sponsor</h4>
-        <a href="https://latinamerica.mastercard.com/es-region-lac/acerca-de-mastercard/que-hacemos/patrocinios.html"><img src="Recursos/sponsor1.jpg"width="110" height="100"></a>
-         <a href="https://latinamerica.mastercard.com/es-region-lac/acerca-de-mastercard/que-hacemos/patrocinios.html"><img src="Recursos/sponsor2.jpg"width="110" height="100"></a>
-        <a href="https://carlosagaton.blogspot.com/2012/03/bancos-de-europa-y-eeuu-principales.html"><img src="Recursos/sponsor3.jpg"width="110" height="100"></a>
-         <a href="https://latinamerica.mastercard.com/es-region-lac/acerca-de-mastercard/que-hacemos/patrocinios.html"><img src="Recursos/sponsor1.jpg"width="110" height="100"></a>
+<body>
+    <header class="cabeceraPrincipal">
+        <div> <img src="Recursos/logo.png" width="100"></div>
+        <section class="seccionCabecera">
+            <a href="">REGISTER</a><b>|</b><a href="">INICIO</a>
+            <input id="search" type="tex" placeholder="Buscar">
+        </section>
+    </header>
+    <nav class="menuPrincipal">
+        <a href="#">|INICIO|</a>
+        <a href="#">|SERVICIOS|</a>
+        <a href="#">|PORTAFOLIO|</a>
+        <a href="#">|CLIENTES|</a>
+        <a href="#">|CONTACTOS|</a>
+    </nav>
+    <section class="galeria">
+        <div style="max-width: 1100px; ;position: relative; margin: auto;">
+            <article>
+                <table>
+                    <form class="fotos">
+                        <input type="button" value=">>" onclick="adelante()">
+                        <img src="Recursos/cajeros.jpg" width="200" height="300">
+                        <img src="Recursos/sala.jpeg" width="200" height="300">
+                        <img src="Recursos/fila.jpg" width="200" height="300">
+                        <img src="Recursos/filas.jpg" width="200" height="300">
+                        <img src="Recursos/seguridad.jpg" width="200" height="300">
+                        <input type="button" value="<<" onclick="atras()">
+                    </form>
+                </table>
+            </article>
+        </div>
     </section>
-    <footer  >
-        <p style="text-align: center;">lajaramillo5
-       <br>UNIVERSIDAD TECNICA PARTICULAR DE LOJA</p>
-    </footer>
+    <main class="noticia">
+        <section class="noticias1">
+            <h4>NOTICIA1</h4>
+            <a href="https://www.biobiochile.cl/noticias/economia/negocios-y-empresas/2020/04/14/asociacion-de-bancos-asegura-que-propuesta-de-creditos-para-pymes-no-son-un-negocio-favorable.shtml"><img src="https://media.biobiochile.cl/wp-content/uploads/2020/04/a_uno_1149770-e1586837647381-750x400.jpg" width="150" height="150"> </a>
+            <p>Asociación de Bancos asegura que propuesta de créditos para pymes no son "un negocio favorable</p>
+        </section>
+        <section class="noticias2">
+            <h4>NOTICIA2</h4>
+            <a href="https://www.infobae.com/economia/2020/04/14/a-partir-de-la-semana-que-viene-los-bancos-van-volver-a-permitir-sacar-dolares-por-ventanilla/"><img src="https://www.infobae.com/new-resizer/4dQMXq1h6c6iChmY6klD5HGkH3o=/750x0/filters:quality(100)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/KINNZUGMJNBI3KKEQSCCCXP22A.jpg" width="150" height="150"> </a>
+            <p>Asociación de Bancos asegura que propuesta de créditos para pymes no son "un negocio favorable</p>
+        </section>
+    </main>
+    <aside class="sponsor">
+        <section class="sponsor1">
+            <a href="https://latinamerica.mastercard.com/es-region-lac/acerca-de-mastercard/que-hacemos/patrocinios.html"><img src="Recursos/sponsor1.jpg" width="110" height="100"></a>
 
-	
+        </section>
+        <section class="sponsor2">
+            <a href="https://latinamerica.mastercard.com/es-region-lac/acerca-de-mastercard/que-hacemos/patrocinios.html"><img src="Recursos/sponsor2.jpg" width="110" height="100"></a>
 
-	
+        </section>
+        <section class="sponsor3">
+            <a href="https://carlosagaton.blogspot.com/2012/03/bancos-de-europa-y-eeuu-principales.html"><img src="Recursos/sponsor3.jpg" width="110" height="100"></a>
 
+        </section>
+        <section class="sponsor4">
+            <a href="https://latinamerica.mastercard.com/es-region-lac/acerca-de-mastercard/que-hacemos/patrocinios.html"><img src="Recursos/sponsor1.jpg" width="110" height="100"></a>
+
+        </section>
+        <section class="sponsor5">
+            <a href="https://latinamerica.mastercard.com/es-region-lac/acerca-de-mastercard/que-hacemos/patrocinios.html"><img src="Recursos/sponsor1.jpg" width="110" height="100"></a>
+        </section>
+    </aside>
+    <FOOTER class="piedepagina">
+        <h5>todos los derechos reservados UNIVERSIDAD TECNICA PARTICULAR DE LOJA</h5>
+        <h5>lajaramillo5</h5>
+    </FOOTER>
 </body>
-</html>
 
+</html>
