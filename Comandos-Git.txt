@@ -1,0 +1,20 @@
+
+
+git config --global user.email "afmontoya2@utpl.edu.ec"
+  git config --global user.name "Alexis Montoya"
+  git init
+  git status
+  git add .
+  git commit -m 'primer commit'
+  git remote add origin (url)
+  git push -u origin master
+
+
+PAra subir cambios
+  git status
+  git add .
+  git commit -m 'primer commit'
+  git push -u origin master
+
+
+
