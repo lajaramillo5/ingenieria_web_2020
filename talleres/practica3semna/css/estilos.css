@@ -7,6 +7,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #e2e0e0;
     margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 header.cabeceraPrincipal,
@@ -201,6 +204,13 @@ section.noticias {
 
 aside.sponsor {
     text-align: center;
+    /* para ajustar los cuadros y que si aumnetan se pongan debajo*/
+    flex-wrap: wrap;
+    /* para ajustar automaticamente el espacio  entre cuadros*/
+    justify-content: space-evenly;
+    /*aliniear todo en el centro del contenedor*/
+    align-items: center;
+    height: 70%;
 }
 
 section.sponsorItem {
@@ -208,10 +218,16 @@ section.sponsorItem {
     width: 20%;
     display: inline-block;
     background-color: #0b361f;
+    margin-top: auto;
 }
 
 footer.piePagina {
     text-align: right;
+    background-color: red;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
 }
 
 footer.piePagina h5 {
