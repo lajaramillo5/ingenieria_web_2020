@@ -3,6 +3,13 @@
     margin: 0;
 }
 
+@media screen and (min-width: 321px) and (max-width: 768px) {
+    body {
+        font-size: 80%;
+        /*/ achicamos la fuente en pantallas pequeñas */
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #e2e0e0;
@@ -10,6 +17,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    cursor: crosshair;
 }
 
 header.cabeceraPrincipal,
@@ -43,6 +51,11 @@ header.cabeceraPrincipal h1 {
     text-align: center;
 }
 
+.imagen_logo {
+    width: 155px;
+    height: 50px;
+}
+
 .logo .iniciales-logo {
     padding: 5px;
     border: 2px solid #000;
@@ -64,6 +77,9 @@ section.seccionCabecera {
     display: flex;
     align-items: center;
     justify-content: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .seccionCabecera .barra-busqueda input {
@@ -127,6 +143,7 @@ nav.menuPrincipal a:hover {
 
 section.galeriaPrinicpal {
     margin-top: 2px;
+    cursor: move;
 }
 
 section.galeriaPrinicpal img {
@@ -202,15 +219,94 @@ section.noticias {
     background-color: #000;
 }
 
-aside.sponsor {
+
+/*estilos sponsosr*/
+
+.ofertas__titulo {
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ofertas__img {
+    width: 50%;
+    filter: brightness(60%);
+}
+
+.ofertas__columna {
+    position: relative;
+}
+
+.ofertas__columna h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color: #fff;
+    font-size: 30px;
+}
+
+.ofertas__columna:hover .ofertas__img {
+    filter: brightness(100%);
+}
+
+.ofertas .contenedor {
+    display: flex;
     text-align: center;
     /* para ajustar los cuadros y que si aumnetan se pongan debajo*/
     flex-wrap: wrap;
     /* para ajustar automaticamente el espacio  entre cuadros*/
     justify-content: space-evenly;
-    /*aliniear todo en el centro del contenedor*/
-    align-items: center;
-    height: 70%;
+}
+
+
+/*-----------------estilos de Fondo--------------*/
+
+.fondo__img {
+    width: 100%;
+}
+
+.info__fondo {
+    position: relative;
+}
+
+.fondo__titulo {
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+.fondo__txt {
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*----------Estilos del footer----------------------*/
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: center;
 }
 
 section.sponsorItem {
@@ -232,4 +328,37 @@ footer.piePagina {
 
 footer.piePagina h5 {
     padding: 1em 2em;
+}
+
+
+/* responsive de paginas*/
+
+@media(min-width:480px) {
+    .menuPrincipal a {
+        top: 32%;
+        width: 50%;
+        padding: 8px;
+    }
+    .menuPrincipal {
+        display: block;
+        font-size: 17px;
+    }
+    .galeriaPrinicpal {
+        display: block;
+        bottom: 3px;
+        font-size: 17px;
+    }
+    .contenedor-texto {
+        width: 90%;
+    }
+    .ofertas__columna h4 {
+        font-size: 40px;
+    }
+    .sociales {
+        width: auto;
+        padding: 20px;
+    }
+    footer.piePagina {
+        justify-content: space-between;
+    }
 }

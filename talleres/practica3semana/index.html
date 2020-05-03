@@ -3,18 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scalable=1.0, minimun-scalable=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <title>Maquetació en HTML y CSS</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <header class="cabeceraPrincipal">
         <div class="logo">
             <p class="iniciales-logo">
-                IW
+                <img src="imagenes/img-05.jpg" alt="Imagen 1 del Slider prinipal" , class="imagen_logo">
             </p>
             <h1>Ingenieria web</h1>
         </div>
@@ -77,15 +78,43 @@
             </article>
         </section>
     </main>
-    <aside class="sponsor">
-        <section class="sponsorItem">SPONSOR 1</section>
-        <section class="sponsorItem">SPONSOR 2</section>
-        <section class="sponsorItem">SPONSOR 3</section>
-        <section class="sponsorItem">SPONSOR 4</section>
-
-    </aside>
+    <section class="ofertas">
+        <h3 class="ofertas__titulo">Ofertas y Descuentos</h3>
+        <div class="contenedor">
+            <article class="ofertas__columna">
+                <img src="imagenes/img-05.jpg" alt="" class="ofertas__img">
+                <h4>CURACAO</h4>
+            </article>
+            <article class="ofertas__columna">
+                <img src="imagenes/img-05.jpg" alt="" class="ofertas__img">
+                <h4>ARUBA</h4>
+            </article>
+            <article class="ofertas__columna">
+                <img src="imagenes/img-05.jpg" alt="" class="ofertas__img">
+                <h4>DUBAI</h4>
+            </article>
+            <article class="ofertas__columna">
+                <img src="imagenes/img-05.jpg" alt="" class="ofertas__img">
+                <h4>ORLANDO</h4>
+            </article>
+            <article class="ofertas__columna">
+                <img src="imagenes/img-05.jpg" alt="" class="ofertas__img">
+                <h4>EUROPA</h4>
+            </article>
+            <article class="ofertas__columna">
+                <img src="imagenes/img-05.jpg" alt="" class="ofertas__img">
+                <h4>ASIA</h4>
+            </article>
+        </div>
+    </section>
     <footer class="piePagina">
         <h5>Todos los derechos reservador UTPL 2020</h5>
+        <div class="sociales">
+            <img src="imagenes/icono1.png" alt="">
+            <img src="imagenes/icono2.png" alt="">
+            <img src="imagenes/icono3.png" alt="">
+            <img src="imagenes/icono4.png" alt="">
+        </div>
     </footer>
 </body>
 
