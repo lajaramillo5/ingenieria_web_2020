@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #e2e0e0;
     margin: 0;
     display: flex;
@@ -46,7 +46,7 @@ body {
     grid-area: seccionCabecera;
     margin: 50px;
     position: relative;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .cabeceraPrincipal .seccionCabecera {
@@ -66,15 +66,16 @@ body {
 /*  -------------- Seccion cabcera ------------------*/
 
 .seccionCabecera a {
-    font-weight: 10;
-    color: cadetblue;
-    text-decoration: none;
+    font-weight: 1;
+    color: grey;
+    text-decoration: #fff;
+    text-anchor: middle;
 }
 
 .seccionCabeceras a:not(:last-child) {
     padding-right: 2px;
     margin-right: 2px;
-    border-right: 1px solid teal;
+    border-right: 1px solid grey;
 }
 
 
