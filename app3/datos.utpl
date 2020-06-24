@@ -1,0 +1,6 @@
+<?php
+echo"Lo sentimos, Lamentabemente no tiene acceso a  este sitio";
+?>
+<h1>Por favor vuelva a la pagina de inicio</h1>
+<img src="./imagenes/acceso_denegado.jpg" alt="" />
+<a href="principal.html">inicio</a>
