@@ -1,8 +1,19 @@
 #Serve Alternate Default Index Page
 DirectoryIndex principal.html
+
+
+
 # Make PHP code look like unknown types
 AddType application/x-httpd-php .utpl
+
+
+
 #erroes
 ErrorDocument 404 principal.html
+
+
+#Permitir el acceso desde una IP específica:
+ #deny all access
+deny from 212.267.98.14
 
 
